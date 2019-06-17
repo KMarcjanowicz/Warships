@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "src/",
+        "target": "ES5",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "ts/plansza.ts",
+        "ts/statki.ts",
+        "ts/gra.ts",
+        "ts/msg.ts"
+    ]
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0em;
+}
+.część{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+    display: inline-block;
+}
+.gablotka{
+    display: block;
+    margin-top: 10px;
+}
+.plansza{
+    width: 520px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.pole{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: white;
+}
+.plansza2{
+    font-size: 2em;
+    width: 520px;
+    margin-left: 10%;
+    margin-top: 10%;
+    display: inline-block;
+    text-align: center;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+#butt{
+    width: 100px;
+    height: 30px;
+    margin-top: 28%;
+    margin-left: 41.3%;
+}
